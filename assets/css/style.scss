@@ -18,13 +18,20 @@ a:hover {
   color: #ad1457;
 }
 
-.main-content h1,
-.main-content h2,
-.main-content h3,
-.main-content h4 {
-  color: #c2185b !important;
+/* Change main page title (big header text) */
+.project-name {
+  color: #ffffff;  /* keep white or change if you want */
 }
 
+/* Change subtitle in header */
+.project-tagline {
+  color: #ffeaf4;
+}
+
+/* Change all page headings (h1, h2, h3, etc.) */
+h1, h2, h3, h4, h5, h6 {
+  color: #c2185b;
+}
 
 /* Softer background */
 body {
