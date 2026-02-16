@@ -18,6 +18,33 @@ a:hover {
   color: #ad1457;
 }
 
-.main-content h2 {
-  color: #c2185b;
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4 {
+  color: #c2185b !important;
+}
+
+
+/* Softer background */
+body {
+  background-color: #fff9fc;
+}
+
+/* Softer paragraph text */
+.main-content {
+  color: #4a4a4a;
+}
+
+/* Optional: soften horizontal lines */
+hr {
+  border-top: 1px solid #f4c2d7;
+}
+
+.project-name {
+  color: #8e244d;
+}
+
+.project-tagline {
+  color: #a64d79;
 }
