@@ -1,0 +1,19 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Change header gradient to light pink */
+.page-header {
+  background-color: #f8c8dc;
+  background-image: linear-gradient(120deg, #f8c8dc, #f4a6c1);
+}
+
+/* Optional: soften link color */
+a {
+  color: #d63384;
+}
+
+a:hover {
+  color: #ad1457;
+}
